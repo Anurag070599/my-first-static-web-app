@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Font Delivery</title>
+    <style>
+	@import url('https://fonts.cdnfonts.com/css/alphabet-05');
+        /* Add some basic CSS for readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
+
+        /* Use the unique font for the text */
+        .unique-text {
+            font-family: 'Alphabet_05', sans-serif;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Font Delivery</h1>
+	<p>
+		There are various methods for delivering fonts to the client's browser when constructing a website. One effective approach is to utilize web fonts, which enable the loading of fonts from a server when a page is requested.
+	</p>
+	<p>
+		To incorporate a web font, it must first be converted into a web-friendly format, such as WOFF or WOFF2. Subsequently, these font files can be hosted on a web server, just like any other web asset. In the website's CSS, the web font can be specified using the @font-face rule, which defines the font files to be loaded.
+	</p>
+	<p>
+		When a user's browser requests the page, the web font files will be downloaded alongside the rest of the site's assets. This ensures that the browser has access to the fonts required to render text with the desired typography. Web fonts grant the flexibility to use any font on the web, rather than being limited to default system fonts.
+		This method provides a straightforward means of delivering a customized font experience. It does increase page load size, so optimization techniques like font subsetting should be employed. Nevertheless, web fonts offer excellent control over typography, which is valuable for branding and web design.
+	</p>
+
+
+    <!-- Use the unique font for the text -->
+    <p>
+        Here's some text that uses our unique font:
+        <span class="unique-text">This style of font is unique!</span>
+    </p>
+
+    <!-- You will need to upload 'uniquefont.woff2' to your web server for this to work -->
+
+</body>
+</html>
