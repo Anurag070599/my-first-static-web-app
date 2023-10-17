@@ -1,0 +1,76 @@
+body {
+    font-family: Lucida Sans Typewriter, sans-serif;
+    background-color: #f0f0f0;
+	background-image: url('nature.jpg');
+    background-size: 1500px 2000px;
+    margin: 30px;
+    padding: 30px;
+}
+
+h1 {
+    color: #17354e;
+    text-align: center;
+    margin: 20px 0;
+}
+
+article h2 {
+    color: #0077b6;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-family: "Times New Roman", sans-serif;
+    color: #bdc8da;
+	background-color: #000000;
+}
+
+.subheading {
+    font-family: "Arial Black", sans-serif;
+    color: #2C3539;
+}
+
+.article1 {
+    font-family: "Broadway", sans-serif;
+    color: #7E3517;
+}
+
+.article2 {
+    font-family: "Bauhaus 93", sans-serif;
+    color: #510a18;
+}
+
+.article3 {
+    font-family: "Wide Latin", sans-serif;
+    color: #845b28;
+}
+
+.article4 {
+    font-family: "Berlin Sans FB Demi", sans-serif;
+    color: #522f13;
+}
+
+.article5 {
+    font-family: "Algerian", sans-serif;
+    color: #27323e;
+}
+
+.article6 {
+    font-family: "Old English Text MT", sans-serif;
+    color: #0f2d20;
+}
+
+.article7 {
+    font-family: "Copperplate Gothic Bold", sans-serif;
+    color: #123f53;
+}
+
+.article8 {
+    font-family: "Showcard Gothic", sans-serif;
+    color: #7b471d;
+}
+
+
