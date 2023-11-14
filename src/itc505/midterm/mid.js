@@ -169,12 +169,10 @@ function updatePage() {
     document.getElementById("choices").innerHTML = "";
     document.getElementById("image").innerHTML = "";
 
-    // Set the background image dynamically
     if (stage.background) {
         document.body.style.backgroundImage = `url('${stage.background}')`;
     }
 
-    // Display the current stage image
     if (stage.image) {
         const img = document.createElement("img");
         img.src = stage.image;
