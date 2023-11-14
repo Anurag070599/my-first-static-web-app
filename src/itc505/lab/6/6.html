@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="lab6.css">
+</head>
+<body class="body">
+
+    <header>
+        <h1>Simple Interest Calculator</h1>
+    </header>
+
+    <div id="between">
+        <aside class="menu-sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+    
+        <main class="content">
+            <div>
+                <label for="principal">Principal Amount:</label>
+                <input type="number" id="principal" placeholder="Enter principal amount">
+            </div>
+    
+            <div>
+                <label for="rate">Interest Rate (%):</label>
+                <input type="number" id="rate" placeholder="Enter interest rate">
+            </div>
+    
+            <div>
+                <label for="time">Time (years):</label>
+                <input type="number" id="time" placeholder="Enter time in years">
+            </div>
+    
+            <div>
+                <button onclick="calculateInterest()">Calculate Interest</button>
+            </div>
+    
+            <div>
+                <p id="result">The simple interest is: </p>
+            </div>
+    
+            
+        </main>
+    
+        
+        <section class="advertisement">
+            <a href="https://www.amazon.com/Marsail-Standing-Adjustable-Electric-Headphone/dp/B0CJ2XYHL1/ref=sr_1_2_sspa?crid=1G88W8SHOBHIJ&keywords=study%2Btable&qid=1699843175&sprefix=study%2Btable%2Caps%2C137&sr=8-2-spons&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">
+                <img src="advertisement_image.jpg" alt="Advertisement" class="right top">
+            </a>
+        </section>
+    </div>
+    <footer>
+        <h2>Addendum</h2>
+		<p>
+		<ol>
+			<li>This page contains a simple interest calculator. The JavaScript code is located in the lab6.js file.</li>
+			<li>It takes user input for the principal amount, interest rate, and time, and calculates the simple interest.</li>
+		</ol>
+		</p>
+    </footer>
+    <script src="lab6.js"></script>
+</body>
+</html>
