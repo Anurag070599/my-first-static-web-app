@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Libs Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 class="welcome-heading">Mad Libs story</h1>
+    <div class="container">
+        
+        <form id="madLibsForm">
+            <label for="noun">Noun:</label>
+            <input type="text" id="noun" required>
+            <label for="verb">Verb:</label>
+            <input type="text" id="verb" required>
+            <label for="adjective">Adjective:</label>
+            <input type="text" id="adjective" required>
+            <label for="adverb">Adverb:</label>
+            <input type="text" id="adverb" required>
+            <label for="place">Place:</label>
+            <input type="text" id="place" required>
+            <button type="button" onclick="generateMadLib()">Generate Story</button>
+        </form>
+        <div id="result" class="hidden">
+            <p id="madLibsOutput" class="story-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
